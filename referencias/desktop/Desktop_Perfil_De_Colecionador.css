@@ -1,0 +1,3503 @@
+/* Desktop / Perfil do Colecionador */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 120px;
+gap: 96px;
+
+position: relative;
+width: 1440px;
+height: 1080px;
+
+/* Color/Ink
+
+#140D0A — vinculado à variável color/ink
+*/
+background: #140D0A;
+
+
+/* Top */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 1200px;
+height: 803px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Header With Divider
+
+Header Row plus the hairline divider beneath it. Used on the five sites that already show the divider: the home, collector profile and wallets screens, and inside Marketplace Page, which the two auth screens instance. Market screens intentionally use a bare Header Row with no divider.
+*/
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1200px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header Row
+
+Desktop header row, 1200 wide: KURIO wordmark, 4-item nav with one active item, search, cart with count badge, and the sign-in button. Set Active to match the screen (Home on Início/Entrar/Criar conta/Perfil do colecionador/Carteiras, Market on the four Mercado-flow screens). Badge Count is the cart item count. Drop at index 0 of the screen Top or Header frame with FILL width and HUG height. The hairline rule under the header belongs to the host Header frame, not to this component.
+*/
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 1200px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logo */
+
+width: 160px;
+height: 34.3px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* KURIO Wordmark */
+
+position: absolute;
+width: 48px;
+height: 18px;
+left: 0px;
+top: 8.15px;
+
+/* Body/14 Bold · lh auto
+
+combo:14|Bold|AUTO|10% | usos: 14
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.1em;
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+
+/* Nav */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 401px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav Item */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 58px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Início */
+
+width: 58px;
+height: 21px;
+
+/* Body Large/16 Bold · lh auto
+
+combo:16|Bold|AUTO|0% | usos: 3
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Active Underline */
+
+width: 58px;
+height: 0px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 3px solid #D28A4C;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Mercado */
+
+width: 68px;
+height: 21px;
+
+/* Body Large/16 Regular · lh auto
+
+combo:16|Regular|AUTO|0% | usos: 33
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Criadores */
+
+width: 87px;
+height: 21px;
+
+/* Body Large/16 Regular · lh auto
+
+combo:16|Regular|AUTO|0% | usos: 33
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Aprenda */
+
+width: 68px;
+height: 21px;
+
+/* Body Large/16 Regular · lh auto
+
+combo:16|Regular|AUTO|0% | usos: 33
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Header Actions */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 28px;
+
+width: 207px;
+height: 35px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Search Icon */
+
+width: 20px;
+height: 20px;
+
+/* Color/Foreground
+
+#F5F1EB — vinculado à variável color/background
+*/
+background: #F5F1EB;
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cart */
+
+width: 31px;
+height: 24px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Cart Icon */
+
+position: absolute;
+left: 23.19%;
+right: 65.22%;
+top: 15.71%;
+bottom: 15.71%;
+
+/* Color/Foreground
+
+#F5F1EB — vinculado à variável color/background
+*/
+background: #F5F1EB;
+
+
+/* Badge */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 63px;
+top: 5.5px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+background: #D28A4C;
+/* Color/Ink
+
+#140D0A — vinculado à variável color/ink
+*/
+border: 2px solid #140D0A;
+
+
+/* Badge Count */
+
+position: absolute;
+width: 7px;
+height: 13px;
+left: 68px;
+top: 7px;
+
+/* Tiny/10 Medium
+
+combo:10|Medium|AUTO|0% | usos: 9
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 13px;
+
+/* Color/Ink */
+color: #140D0A;
+
+
+
+/* Login */
+
+width: 100px;
+height: 35px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Login Button */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 100px;
+height: 35px;
+left: 107px;
+top: 0px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+background: #D28A4C;
+border-radius: 6px;
+
+
+/* Login Button Content */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 82px;
+height: 21px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Iconly/Curved/Logout */
+
+width: 20px;
+height: 20px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logout */
+
+position: absolute;
+width: 19.53px;
+height: 18.5px;
+left: 2.26px;
+top: 2.75px;
+
+
+
+/* Stroke 1 */
+
+position: absolute;
+left: 40.62%;
+right: 9.2%;
+top: 48.42%;
+bottom: 47.41%;
+
+/* Color/Ink
+
+#140D0A — vinculado à variável color/ink
+*/
+border: 1.5px solid #140D0A;
+
+
+/* Stroke 3 */
+
+position: absolute;
+left: 78.6%;
+right: 9.2%;
+top: 38.35%;
+bottom: 37.35%;
+
+/* Color/Ink
+
+#140D0A — vinculado à variável color/ink
+*/
+border: 1.5px solid #140D0A;
+
+
+/* Stroke 4 */
+
+position: absolute;
+left: 9.41%;
+right: 31.83%;
+top: 11.46%;
+bottom: 11.46%;
+
+/* Color/Ink
+
+#140D0A — vinculado à variável color/ink
+*/
+border: 1.5px solid #140D0A;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Entrar */
+
+width: 58px;
+height: 21px;
+
+/* Body Large/16 Medium · lh auto
+
+combo:16|Medium|AUTO|0% | usos: 9
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+/* Color/Ink */
+color: #140D0A;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 1200px;
+height: 0px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 0.3px solid #D28A4C;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+width: 1200px;
+height: 726px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Account Sidebar */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 0px;
+
+width: 310px;
+height: 407px;
+
+/* Color/Surface Card
+
+#241612 — vinculado à variável color/text-primary
+*/
+background: #241612;
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 457 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 129px;
+height: 36px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Meu perfil */
+
+width: 109px;
+height: 16px;
+
+/* Body Large/18 Bold · lh 16
+
+combo:18|Bold|16px|0% | usos: 95
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+/* idêntico à altura da caixa ou 89% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 459 */
+
+box-sizing: border-box;
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 16px;
+
+width: 310px;
+height: 45px;
+
+border-left: 6px solid #D28A4C;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 458 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 278px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* User */
+
+width: 18px;
+height: 18px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+background: #D28A4C;
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 136px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 460 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 12px;
+
+width: 310px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Iconly/Light-Outline/Location */
+
+width: 20px;
+height: 20px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Location */
+
+position: absolute;
+width: 13.75px;
+height: 16.25px;
+left: 3.33px;
+top: 1.67px;
+
+
+
+/* Fill 1 */
+
+position: absolute;
+left: 37.5%;
+right: 35.41%;
+top: 29.17%;
+bottom: 43.75%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Path */
+
+position: absolute;
+left: 43.75%;
+right: 41.66%;
+top: 35.42%;
+bottom: 50%;
+
+
+
+/* Path */
+
+position: absolute;
+left: 37.5%;
+right: 35.41%;
+top: 29.17%;
+bottom: 43.75%;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 13.75px;
+height: 16.25px;
+left: 3.33px;
+top: 1.67px;
+
+
+
+/* Clip 4 */
+
+position: absolute;
+left: 16.67%;
+right: 14.59%;
+top: 8.33%;
+bottom: 10.42%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 3 */
+
+position: absolute;
+left: 16.67%;
+right: 14.58%;
+top: 8.33%;
+bottom: 10.42%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Path */
+
+position: absolute;
+left: 22.92%;
+right: 20.83%;
+top: 14.58%;
+bottom: 16.68%;
+
+
+
+/* Path */
+
+position: absolute;
+left: 16.67%;
+right: 14.58%;
+top: 8.33%;
+bottom: 10.42%;
+
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 82px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 461 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 12px;
+
+width: 310px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* shopping 1 */
+
+width: 18px;
+height: 18px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 82px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 462 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 12px;
+
+width: 310px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* heart 1 */
+
+width: 16px;
+height: 16px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.47%;
+bottom: 5.56%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 163px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 463 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 12px;
+
+width: 310px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Iconly/Curved/Activity */
+
+width: 18px;
+height: 18px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Activity */
+
+position: absolute;
+width: 14.35px;
+height: 14.4px;
+left: 1.84px;
+top: 1.76px;
+
+
+
+/* Stroke 1 */
+
+position: absolute;
+left: 28.82%;
+right: 32.28%;
+top: 41.11%;
+bottom: 38.11%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Stroke 2 */
+
+position: absolute;
+left: 73.94%;
+right: 10.05%;
+top: 9.79%;
+bottom: 74.19%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Stroke 4 */
+
+position: absolute;
+left: 10.21%;
+right: 12.71%;
+top: 12.72%;
+bottom: 10.19%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 64px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 464 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 12px;
+
+width: 310px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Iconly/Curved/Download */
+
+width: 18px;
+height: 18px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Download */
+
+position: absolute;
+width: 13.88px;
+height: 13.96px;
+left: 2.06px;
+top: 2.06px;
+
+
+
+/* Stroke 1 */
+
+position: absolute;
+left: 47.41%;
+right: 48.42%;
+top: 11.46%;
+bottom: 38.37%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Stroke 3 */
+
+position: absolute;
+left: 37.35%;
+right: 38.35%;
+top: 49.43%;
+bottom: 38.37%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Stroke 4 */
+
+position: absolute;
+left: 11.46%;
+right: 11.46%;
+top: 30.24%;
+bottom: 11.01%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 154px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 465 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 12px;
+
+width: 310px;
+height: 45px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Iconly/Curved/Danger Triangle */
+
+width: 18px;
+height: 18px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Danger Triangle */
+
+position: absolute;
+width: 14.25px;
+height: 13.5px;
+left: 1.88px;
+top: 2.25px;
+
+
+
+/* Stroke 3 */
+
+position: absolute;
+left: 10.42%;
+right: 10.42%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Stroke 3 */
+
+position: absolute;
+left: 47.92%;
+right: 47.92%;
+top: 35.42%;
+bottom: 48.35%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Stroke 15 */
+
+position: absolute;
+left: 47.92%;
+right: 47.92%;
+top: 64.15%;
+bottom: 31.69%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+border: 1.5px solid #B39463;
+
+
+/* Profile Details
+Wallets
+Activity
+Watchlist
+Offers
+Downloads
+Support */
+
+width: 64px;
+height: 45px;
+
+/* Body/15 Regular · lh 45
+
+combo:15|Regular|45px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 45px;
+/* idêntico à altura da caixa ou 300% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 310px;
+height: 0px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 0.3px solid #D28A4C;
+
+/* Auto layout por dentro */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 38 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+
+width: 310px;
+height: 40px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Iconly/Curved/Logout */
+
+width: 20px;
+height: 20px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logout */
+
+position: absolute;
+width: 16.28px;
+height: 15.42px;
+left: 1.88px;
+top: 2.29px;
+
+
+
+/* Stroke 1 */
+
+position: absolute;
+left: 40.62%;
+right: 9.2%;
+top: 48.42%;
+bottom: 47.41%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 1.5px solid #D28A4C;
+
+
+/* Stroke 3 */
+
+position: absolute;
+left: 78.6%;
+right: 9.2%;
+top: 38.35%;
+bottom: 37.35%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 1.5px solid #D28A4C;
+
+
+/* Stroke 4 */
+
+position: absolute;
+left: 9.41%;
+right: 31.83%;
+top: 11.46%;
+bottom: 11.46%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 1.5px solid #D28A4C;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Sair */
+
+width: 37px;
+height: 15px;
+
+/* Body/15 Bold · lh 15
+
+combo:15|Bold|15px|0% | usos: 2
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Text/Accent */
+color: #E89B55;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Profile Form */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 862px;
+height: 726px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Perfil do colecionador */
+
+width: 212px;
+height: 16px;
+
+/* Body Large/16 Bold · lh 16
+
+combo:16|Bold|16px|0% | usos: 58
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Fields */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 862px;
+height: 285px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Field Row 1 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 862px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Display Name Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 159px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nome de exibição */
+
+width: 145px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* * */
+
+width: 14px;
+height: 29px;
+
+/* Title/22 Regular
+
+combo:22|Regular|15px|0% | usos: 32
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+/* idêntico à altura da caixa ou 132% */
+text-align: right;
+
+/* Text/Coral */
+color: #F0805F;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 59 */
+
+box-sizing: border-box;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 454 */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Username Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 150px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 453 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 150px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nome de usuário */
+
+width: 136px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 452 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 14px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* * */
+
+margin: 0 auto;
+width: 14px;
+height: 29px;
+
+/* Title/22 Regular
+
+combo:22|Regular|15px|0% | usos: 32
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+/* idêntico à altura da caixa ou 132% */
+
+/* Text/Coral */
+color: #F0805F;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 60 */
+
+box-sizing: border-box;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Field Row 2 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 862px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Bio Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 69px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* E-mail */
+
+width: 55px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* * */
+
+width: 14px;
+height: 29px;
+
+/* Title/22 Regular
+
+combo:22|Regular|15px|0% | usos: 32
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+/* idêntico à altura da caixa ou 132% */
+
+/* Text/Coral */
+color: #F0805F;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 66 */
+
+box-sizing: border-box;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ENS Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 455 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 91px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nome ENS */
+
+width: 73px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* * */
+
+width: 14px;
+height: 29px;
+
+/* Title/22 Regular
+
+combo:22|Regular|15px|0% | usos: 32
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+/* idêntico à altura da caixa ou 132% */
+
+/* Text/Coral */
+color: #F0805F;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ENS Input */
+
+width: 417px;
+height: 40px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 67 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 78px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+
+/* .eth */
+
+position: absolute;
+width: 37px;
+height: 15px;
+left: 10px;
+top: 13px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+
+/* Arrow-Down */
+
+position: absolute;
+left: 12.71%;
+right: 82.49%;
+top: 25%;
+bottom: 25%;
+
+
+
+/* Vector 37 (Stroke) */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 38.54%;
+bottom: 30.21%;
+
+/* Color/Foreground
+
+#F5F1EB — vinculado à variável color/background
+*/
+background: #F5F1EB;
+
+
+/* Rectangle 61 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 329px;
+height: 40px;
+left: 88px;
+top: 0px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+
+/* Field Row 3 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+width: 862px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Website Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 79px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 172px;
+height: 29px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Apelido da carteira */
+
+width: 172px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* * */
+
+width: 14px;
+height: 29px;
+
+/* Title/22 Regular
+
+combo:22|Regular|15px|0% | usos: 32
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+/* idêntico à altura da caixa ou 132% */
+text-align: right;
+
+/* Text/Coral */
+color: #F0805F;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 62 */
+
+box-sizing: border-box;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Avatar Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 417px;
+height: 75px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 55px;
+height: 15px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Avatar */
+
+width: 55px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Avatar Controls */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 251px;
+height: 50px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 456 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 251px;
+height: 50px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 32 */
+
+box-sizing: border-box;
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 10px;
+
+width: 50px;
+height: 50px;
+
+/* Color/Surface Raised
+
+#2F1D15 — vinculado à variável color/text-secondary
+*/
+background: #2F1D15;
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 25px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Iconly/Curved/Image 2 */
+
+width: 24px;
+height: 24px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image 2 */
+
+position: absolute;
+width: 18.5px;
+height: 18.5px;
+left: 2.75px;
+top: 2.75px;
+
+
+
+/* Stroke 1 */
+
+position: absolute;
+left: 11.46%;
+right: 11.46%;
+top: 11.46%;
+bottom: 11.46%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 1.5px solid #D28A4C;
+
+
+/* Stroke 3 */
+
+position: absolute;
+left: 29.49%;
+right: 55.84%;
+top: 29.26%;
+bottom: 56.06%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 1.5px solid #D28A4C;
+
+
+/* Stroke 5 */
+
+position: absolute;
+left: 18.61%;
+right: 12%;
+top: 49.71%;
+bottom: 21.36%;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+border: 1.5px solid #D28A4C;
+
+
+/* Frame 33 */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+isolation: isolate;
+
+width: 177px;
+height: 40px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 66 */
+
+width: 98px;
+height: 40px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+background: #D28A4C;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Remover */
+
+width: 59px;
+height: 16px;
+
+/* Body/14 Regular · lh 16
+
+combo:14|Regular|16px|0% | usos: 62
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* idêntico à altura da caixa ou 114% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Alterar */
+
+position: absolute;
+width: 59px;
+height: 16px;
+left: 25px;
+top: 12px;
+
+/* Body/14 Bold · lh 16
+
+combo:14|Bold|16px|0% | usos: 9
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* idêntico à altura da caixa ou 114% */
+
+/* Color/Ink */
+color: #140D0A;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Change Password */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 862px;
+height: 289px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Alterar senha */
+
+width: 125px;
+height: 16px;
+
+/* Body Large/16 Medium · lh 16
+
+combo:16|Medium|16px|0% | usos: 11
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Current Password Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 417px;
+height: 67px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Senha atual */
+
+width: 100px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Password Input
+
+Bordered password field with a visibility toggle. Used in the Change Password block on the collector profile screen. It has no text child: to give the three fields placeholder or value text, add a TEXT node plus a TEXT component property here rather than detaching an instance.
+*/
+
+box-sizing: border-box;
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 16px;
+gap: 10px;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Iconly/Light-Outline/Hide */
+
+width: 20px;
+height: 20px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hide */
+
+position: absolute;
+width: 16.67px;
+height: 14.39px;
+left: 1.67px;
+top: 3.33px;
+
+
+
+/* Fill 1 */
+
+position: absolute;
+left: 33.69%;
+right: 37.58%;
+top: 36.34%;
+bottom: 34.93%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Fill 3 */
+
+position: absolute;
+left: 49.24%;
+right: 33.94%;
+top: 51.88%;
+bottom: 31.29%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 7 */
+
+position: absolute;
+width: 16.09px;
+height: 14.1px;
+left: 1.67px;
+top: 3.85px;
+
+
+
+/* Clip 6 */
+
+position: absolute;
+left: 6.67%;
+right: 26.31%;
+top: 15.42%;
+bottom: 25.84%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 5 */
+
+position: absolute;
+left: 6.67%;
+right: 26.31%;
+top: 15.42%;
+bottom: 25.84%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 10 */
+
+position: absolute;
+width: 13.28px;
+height: 11.95px;
+left: 7.26px;
+top: 7.28px;
+
+
+
+/* Clip 9 */
+
+position: absolute;
+left: 29.06%;
+right: 15.6%;
+top: 29.14%;
+bottom: 21.08%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 8 */
+
+position: absolute;
+left: 29.06%;
+right: 15.6%;
+top: 29.14%;
+bottom: 21.08%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 13 */
+
+position: absolute;
+width: 17.27px;
+height: 17.27px;
+left: 2.8px;
+top: 3.33px;
+
+
+
+/* Clip 12 */
+
+position: absolute;
+left: 14.01%;
+right: 14.01%;
+top: 16.67%;
+bottom: 11.36%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 11 */
+
+position: absolute;
+left: 14.01%;
+right: 14.01%;
+top: 16.67%;
+bottom: 11.36%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* New Password Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 417px;
+height: 67px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Nova senha */
+
+width: 91px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Password Input
+
+Bordered password field with a visibility toggle. Used in the Change Password block on the collector profile screen. It has no text child: to give the three fields placeholder or value text, add a TEXT node plus a TEXT component property here rather than detaching an instance.
+*/
+
+box-sizing: border-box;
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 16px;
+gap: 10px;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Iconly/Light-Outline/Hide */
+
+width: 20px;
+height: 20px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hide */
+
+position: absolute;
+width: 16.67px;
+height: 14.39px;
+left: 1.67px;
+top: 3.33px;
+
+
+
+/* Fill 1 */
+
+position: absolute;
+left: 33.69%;
+right: 37.58%;
+top: 36.34%;
+bottom: 34.93%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Fill 3 */
+
+position: absolute;
+left: 49.24%;
+right: 33.94%;
+top: 51.88%;
+bottom: 31.29%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 7 */
+
+position: absolute;
+width: 16.09px;
+height: 14.1px;
+left: 1.67px;
+top: 3.85px;
+
+
+
+/* Clip 6 */
+
+position: absolute;
+left: 6.67%;
+right: 26.31%;
+top: 15.42%;
+bottom: 25.84%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 5 */
+
+position: absolute;
+left: 6.67%;
+right: 26.31%;
+top: 15.42%;
+bottom: 25.84%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 10 */
+
+position: absolute;
+width: 13.28px;
+height: 11.95px;
+left: 7.26px;
+top: 7.28px;
+
+
+
+/* Clip 9 */
+
+position: absolute;
+left: 29.06%;
+right: 15.6%;
+top: 29.14%;
+bottom: 21.08%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 8 */
+
+position: absolute;
+left: 29.06%;
+right: 15.6%;
+top: 29.14%;
+bottom: 21.08%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 13 */
+
+position: absolute;
+width: 17.27px;
+height: 17.27px;
+left: 2.8px;
+top: 3.33px;
+
+
+
+/* Clip 12 */
+
+position: absolute;
+left: 14.01%;
+right: 14.01%;
+top: 16.67%;
+bottom: 11.36%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 11 */
+
+position: absolute;
+left: 14.01%;
+right: 14.01%;
+top: 16.67%;
+bottom: 11.36%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Confirm Password Field */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 417px;
+height: 67px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Confirmar nova senha */
+
+width: 181px;
+height: 15px;
+
+/* Body/15 Regular · lh 15
+
+combo:15|Regular|15px|0% | usos: 42
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* idêntico à altura da caixa ou 100% */
+
+/* Color/Foreground */
+color: #F5F1EB;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Password Input
+
+Bordered password field with a visibility toggle. Used in the Change Password block on the collector profile screen. It has no text child: to give the three fields placeholder or value text, add a TEXT node plus a TEXT component property here rather than detaching an instance.
+*/
+
+box-sizing: border-box;
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 16px;
+gap: 10px;
+
+width: 417px;
+height: 40px;
+
+/* Color/Border
+
+#3F2319 — vinculado à variável color/border
+*/
+border: 1px solid #3F2319;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Iconly/Light-Outline/Hide */
+
+width: 20px;
+height: 20px;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hide */
+
+position: absolute;
+width: 16.67px;
+height: 14.39px;
+left: 1.67px;
+top: 3.33px;
+
+
+
+/* Fill 1 */
+
+position: absolute;
+left: 33.69%;
+right: 37.58%;
+top: 36.34%;
+bottom: 34.93%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Fill 3 */
+
+position: absolute;
+left: 49.24%;
+right: 33.94%;
+top: 51.88%;
+bottom: 31.29%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 7 */
+
+position: absolute;
+width: 16.09px;
+height: 14.1px;
+left: 1.67px;
+top: 3.85px;
+
+
+
+/* Clip 6 */
+
+position: absolute;
+left: 6.67%;
+right: 26.31%;
+top: 15.42%;
+bottom: 25.84%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 5 */
+
+position: absolute;
+left: 6.67%;
+right: 26.31%;
+top: 15.42%;
+bottom: 25.84%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 10 */
+
+position: absolute;
+width: 13.28px;
+height: 11.95px;
+left: 7.26px;
+top: 7.28px;
+
+
+
+/* Clip 9 */
+
+position: absolute;
+left: 29.06%;
+right: 15.6%;
+top: 29.14%;
+bottom: 21.08%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 8 */
+
+position: absolute;
+left: 29.06%;
+right: 15.6%;
+top: 29.14%;
+bottom: 21.08%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Group 13 */
+
+position: absolute;
+width: 17.27px;
+height: 17.27px;
+left: 2.8px;
+top: 3.33px;
+
+
+
+/* Clip 12 */
+
+position: absolute;
+left: 14.01%;
+right: 14.01%;
+top: 16.67%;
+bottom: 11.36%;
+
+/* Color/Black
+
+#000000 — vinculado à variável color/black
+*/
+background: #000000;
+
+
+/* Fill 11 */
+
+position: absolute;
+left: 14.01%;
+right: 14.01%;
+top: 16.67%;
+bottom: 11.36%;
+
+/* Color/Secondary
+
+#B39463 — vinculado à variável color/secondary
+*/
+background: #B39463;
+
+
+/* Save Button */
+
+/* Layout automático */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 131px;
+height: 40px;
+
+/* Color/Primary
+
+#D28A4C — vinculado à variável color/primary
+*/
+background: #D28A4C;
+border-radius: 3px;
+
+/* Auto layout por dentro */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Salvar */
+
+width: 51px;
+height: 16px;
+
+/* Body/14 Bold · lh 16
+
+combo:14|Bold|16px|0% | usos: 9
+*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* idêntico à altura da caixa ou 114% */
+
+/* Color/Ink */
+color: #140D0A;
+
+
+/* Auto layout por dentro */
+flex: none;
+order: 0;
+flex-grow: 0;

@@ -1,0 +1,18 @@
+/* Desktop / Carrinho de NFTs */
+
+/* Layout automático */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 120px;
+gap: 96px;
+
+position: relative;
+width: 1440px;
+height: 1754px;
+
+/* Color/Ink
+
+#140D0A — vinculado à variável color/ink
+*/
+background: #140D0A;
