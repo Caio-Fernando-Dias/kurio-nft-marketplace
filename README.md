@@ -1,5 +1,8 @@
 # Desafio Frontend — Marketplace de NFTs
 
+> 🌐 **Deploy em Produção (Vercel):** [https://kurio-nft-marketplace-phi.vercel.app](https://kurio-nft-marketplace-phi.vercel.app)  
+> 📦 **Repositório GitHub:** [https://github.com/Caio-Fernando-Dias/kurio-nft-marketplace](https://github.com/Caio-Fernando-Dias/kurio-nft-marketplace)
+
 Implemente o **NFT Marketplace** em React e TypeScript, seguindo o [layout no Figma](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1).
 
 O desafio avalia fidelidade visual, qualidade das interações, integração com APIs, gerenciamento de estado assíncrono, tempo real, acessibilidade e performance.
