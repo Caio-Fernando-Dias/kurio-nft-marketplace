@@ -263,3 +263,28 @@ Documente os contratos REST e eventos, a política de sessão, o estado do carri
 Disponibilize comandos para desenvolvimento com mocks, build, preview, verificação de tipos, lint, testes Playwright e auditoria Lighthouse.
 
 A entrega deve executar a partir de um checkout limpo, sem depender de serviços privados ou do backend de produção.
+
+---
+
+## 13. Decisões de UI/UX e Correções de Inconsistências do Layout
+
+Durante a implementação, auditoria e testes em diferentes dispositivos e níveis de zoom, foram identificadas e corrigidas inconsistências do layout estático do Figma para garantir uma experiência de uso (UI/UX) fluida, acessível e robusta em produção:
+
+1. **Grid do Catálogo e Alinhamento Lateral:**
+   - *Causa no protótipo:* O layout utilizava larguras estáticas rígidas (`842px` para o container do catálogo e `258px` para os cards), gerando um espaçamento em branco desproporcional à direita em telas widescreen (acima de 1280px) ou com zoom do navegador.
+   - *Melhoria implementada:* O grid foi refatorado para preenchimento fluído (`lg:flex-1 min-w-0` e cards ocupando 100% da sua coluna no grid), garantindo alinhamento perfeitamente uniforme da 3ª coluna com a borda direita do container principal de 1200px, cabeçalho e footer.
+
+2. **Cards de Promoção sem Sobreposição:**
+   - *Causa no protótipo:* O uso de coordenadas absolutas estáticas (`md:absolute md:left-0` e `md:absolute md:right-[30px]`) provocava colisões e fazia os títulos e textos vazarem por cima da imagem da arte em viewports intermediárias ou com zoom aplicado.
+   - *Melhoria implementada:* Reestruturação com Flexbox responsivo moderno (`flex-col sm:flex-row items-center`) com espaçamento semântico, coluna de texto flexível (`flex-1 min-w-0`) e z-index isolado, assegurando legibilidade e integridade da arte visual em qualquer resolução ou zoom.
+
+3. **Modal de Confirmação de Pedido Adaptativo:**
+   - *Causa no protótipo:* Em telas compactas ou navegadores com zoom ativo (125%/150%), a altura total do modal ultrapassava a altura da tela (`viewport overflow`), cortando o botão "X" e impossibilitando o usuário de fechá-lo.
+   - *Melhoria implementada:* O diálogo recebeu contenção de altura (`max-h-[90vh]`) com rolagem interna suave (`overflow-y-auto`), botão flutuante de fechar com alto contraste fixado no topo e um botão secundário explícito de "Fechar" ao lado do link do Etherscan.
+
+4. **Uniformidade no Rodapé e Diário de Mintagem:**
+   - *Melhoria implementada:* As larguras rígidas do rodapé e dos cards do diário de mintagem foram flexibilizadas para distribuição proporcional em colunas alinhadas aos grids superiores.
+
+5. **Acessibilidade e Micro-interações:**
+   - *Melhoria implementada:* Inclusão de estados animados de carregamento (Skeletons com efeito shimmer), indicadores de foco visíveis (`:focus-visible`) para navegação integral via teclado e suporte ao atalho `Escape` para fechar gavetas e modais.
+

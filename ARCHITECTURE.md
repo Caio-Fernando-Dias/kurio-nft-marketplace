@@ -318,3 +318,28 @@ A suíte contempla 13 especificações modulares:
 - Como o MSW intercepta o tráfego no navegador via Service Worker, o reset executa `fetch('/api/reset', { method: 'POST' })` no contexto do browser, garantindo que todo teste inicie a partir do estado idêntico e determinístico do protótipo Figma.
 - O guia detalhado de testes está documentado em [e2e/README.md](file:///home/caio-fernando-dias/%C3%81rea%20de%20trabalho/Marketplace%20de%20NFTs/e2e/README.md).
 
+---
+
+## 12. Decisões de UI/UX e Desvios de Produção em Relação ao Figma (Seção 12)
+
+Conforme orientado na Seção 12 do Desafio (*"Registre limitações, decisões de UX e eventuais desvios do Figma em ARCHITECTURE.md"*), documentamos as adaptações técnicas executadas para converter o protótipo estático em uma aplicação web moderna e plenamente responsiva:
+
+1. **Alinhamento e Fluidez do Grid de NFTs:**
+   - **Desvio / Limitação do Figma:** O layout original utilizava dimensões estáticas rígidas (`w-[842px]` na coluna direita do catálogo e `max-w-[258px]` nos cards de produto). Em monitores widescreen (1440px+) ou ao aplicar zoom no navegador, essa largura fixa deixava uma faixa em branco indesejada na margem direita.
+   - **Decisão Técnica:** Refatorou-se para `lg:flex-1 min-w-0` com cards ocupando 100% da coluna do grid, mantendo a 3ª coluna perfeitamente alinhada com os limites do container de 1200px, cabeçalho e rodapé.
+
+2. **Prevenção de Colisão nos Banners de Promoção:**
+   - **Desvio / Limitação do Figma:** O protótipo fixava o texto e a imagem com posicionamento absoluto rígido (`md:absolute`), ocasionando sobreposição do texto diretamente em cima da arte quando a viewport encolhia ou quando o usuário aumentava o zoom.
+   - **Decisão Técnica:** Estruturou-se em Flexbox semântico (`flex flex-col sm:flex-row items-center`) com espaçamento responsivo e coluna de texto fluida (`min-w-0`), garantindo legibilidade do texto e integridade da arte visual em qualquer resolução.
+
+3. **Resiliência do Modal de Confirmação de Pedido:**
+   - **Desvio / Limitação do Figma:** O modal no Figma foi desenhado para uma altura idealizada de viewport. Em telas de notebooks com menor altura vertical ou com zoom ativado (125%/150%), o modal ultrapassava a tela (`overflow`), cortando o botão "X" e impedindo o fechamento.
+   - **Decisão Técnica:** Implementou-se limite de altura segura (`max-h-[90vh]`) com rolagem interna suave (`overflow-y-auto`), fixação de botão de fechar flutuante de alto contraste e botão explícito de fechamento secundário.
+
+4. **Distribuição Proporcional no Rodapé e Diário de Mintagem:**
+   - As colunas de navegação do rodapé e os cards do diário de mintagem foram adaptados para preenchimento simétrico do container de 1200px.
+
+5. **Acessibilidade e Micro-interações:**
+   - Adicionados skeletons com efeito shimmer durante carregamento de dados remotos, foco visível (`:focus-visible`) para todos os elementos interativos e controle de fechar via tecla `Escape`.
+
+
